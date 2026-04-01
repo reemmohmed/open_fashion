@@ -31,20 +31,6 @@ This project showcases my ability to build production-level UI with Flutter, foc
 ```bash
 flutter pub get
 flutter run
-```
-
----
-
-## 📸 Preview
-
-(Add screenshots here)
-
----
-
-## 🤝 Connect with Me
-
-* LinkedIn: (your link)
-* GitHub: (your profile)
 
 ---
 
