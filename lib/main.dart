@@ -4,8 +4,8 @@ import 'package:open_fashion/features/Splash/view/splash.dart';
 
 
 void main() {
-  // runApp(const MyApp());
-    runApp( DevicePreview(enabled: true, builder: (context) => MyApp()));
+  runApp(const MyApp());
+    // runApp( DevicePreview(enabled: true, builder: (context) => MyApp()));
 
 }
 
@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        locale: DevicePreview.locale(context),
-      builder: DevicePreview.appBuilder,
+      //   locale: DevicePreview.locale(context),
+      // builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
